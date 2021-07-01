@@ -1,6 +1,8 @@
 package br.com.Aluno;
 
-public class Aluno {
+import br.com.Endereco.Endereco;
+
+public class Aluno extends Endereco {
 	private String nomeAluno;
 	private int idadeAluno;
 	private String curso;
